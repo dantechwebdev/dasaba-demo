@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Utilities */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn.primary {
+  background: #0b5ed7;
+  color: #fff;
+}
+
+.btn.secondary {
+  background: #6c757d;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* Header */
+.header {
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Hero */
+.hero {
+  background: #f4f6f8;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+/* Services Preview */
+.services-preview {
+  padding: 50px 0;
+}
+
+.services-preview h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Why Us */
+.why-us {
+  background: #f9f9f9;
+  padding: 40px 0;
+}
+
+.why-us ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Careers */
+.careers {
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
